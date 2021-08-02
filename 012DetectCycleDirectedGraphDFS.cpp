@@ -11,7 +11,7 @@ using namespace std;
 // N is the time taken for visiting N nodes and
 // E is for travelling through adjacent nodes overall
 
-bool isCycle(int node, vector<int> adj[], vector<bool> &vis, vector<bool> visDfs) {
+bool isCycle(int node, vector<int> adj[], vector<bool> &vis, vector<bool> &visDfs) {
 
     vis[node] = true;
     visDfs[node] = true;
